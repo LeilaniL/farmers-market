@@ -13,6 +13,12 @@ function TodayInfo(props) {
   return (
     <div style={todayStyles}>
       <h3>Today:</h3>
+      <p><strong>You can find us at:</strong></p>
+      <ul>
+        <li>Location</li>
+        <li>Hours</li>
+        <li>Stall</li>
+      </ul>
     </div>
   )
 }

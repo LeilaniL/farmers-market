@@ -1,5 +1,6 @@
 import React from 'react';
 import TodayInfo from './TodayInfo';
+import WeeklySchedule from './WeeklySchedule';
 
 function Welcome(props) {
   var welcomeStyles = {
@@ -13,7 +14,7 @@ function Welcome(props) {
     <div style={welcomeStyles}>
       <h1>Welcome to Avery's Organics</h1>
       <TodayInfo />
-      {/* <WeeklySchedule /> */}
+      <WeeklySchedule />
       {/* <MonthlyProduceList /> */}
     </div >
   )
