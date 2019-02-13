@@ -1,10 +1,9 @@
 import React from 'react';
+import Welcome from './Welcome';
 
 function App() {
   return (
-    <div>
-      <p>App Component works!</p>
-    </div>
+    <Welcome />
   );
 }
 
